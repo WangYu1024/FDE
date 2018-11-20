@@ -1,0 +1,1 @@
+cmd='/Applications/CLion.app/Contents/bin/cmake/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/gtest;-DCMAKE_C_COMPILER=gcc;-DCMAKE_CXX_COMPILER=g++;-DCMAKE_CXX_FLAGS=  -fPIC -Wall -Wextra -fno-omit-frame-pointer -march=native -Wno-unknown-pragmas;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

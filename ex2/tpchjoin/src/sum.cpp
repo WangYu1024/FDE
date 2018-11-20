@@ -8,7 +8,13 @@ using namespace aria::csv;
 
 int64_t ToInt(std::string_view s) {
     int64_t result = 0;
-    for (auto c : s) result = result * 10 + (c - '0');
+//    for (auto c : s) result = result * 10 + (c - '0');
+    for(auto c:s){
+        if(c!='.'){
+            result = result * 10 + (c - '0');
+        }
+    }
+
     return result;
 }
 
@@ -19,11 +25,7 @@ int64_t sum_extendedprice(const std::string& file_name) {
     int64_t price_sum = 0;
     uint64_t field_number = 0;
     for (auto row : lineitem) {
-        for (const auto& field : row) {
-            //-- TODO exercise 2.5
-            // your code goes here
-            //--
-        }
+        price_sum+=row[5];
     }
 
     return price_sum;

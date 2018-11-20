@@ -1,0 +1,13 @@
+# Target labels
+ googletest
+# Source files and their labels
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/CMakeFiles/googletest
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/CMakeFiles/googletest.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/CMakeFiles/googletest-complete.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/src/googletest-stamp/googletest-install.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/src/googletest-stamp/googletest-mkdir.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/src/googletest-stamp/googletest-download.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/src/googletest-stamp/googletest-update.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/src/googletest-stamp/googletest-patch.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/src/googletest-stamp/googletest-configure.rule
+/Users/wangyu/Documents/FDE/exercises/ex2/tpchjoin/cmake-build-debug/vendor/gtm/src/googletest-stamp/googletest-build.rule

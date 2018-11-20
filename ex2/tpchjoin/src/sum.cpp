@@ -25,7 +25,7 @@ int64_t sum_extendedprice(const std::string& file_name) {
     int64_t price_sum = 0;
     uint64_t field_number = 0;
     for (auto row : lineitem) {
-        price_sum+=row[5];
+        price_sum+=ToInt(row[5]);
     }
 
     return price_sum;

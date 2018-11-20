@@ -1,0 +1,122 @@
+Exercise 1
+
+• FROM: cat, most utils support input files, join 
+• LIMIT: tail, head 
+• SELECT: cut, awk (can perform computation on input columns)
+• WHERE: grep, awk (supports line-wise grep style filters)
+• ORDER BY: sort 
+• GROUP BY: sort + awk, uniq
+
+“do one thing and do it well”
+GNU-Gnu Not Unix
+https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands
+why not use python?
+
+
+Exerise 2
+// Part 1
+    egrep -n "From MAILER-" gmane.linux.kernel | tail -n+2 |     cut -d":" -f1 > ends
+// Use egrep to filter out lines starting with 'Lines:'. Then, use sed
+// to replace anything ahead of the numbers with nullSpace. Since every
+// filtered line from egrep ends with digits, each filtered line from
+// sed only contains numbers
+xzcat gmane.linux.kernel.xz | egrep '^Lines:' | sed 's/Lines: //' | sort -n | tail -1 
+
+1. Longest mail:
+egrep "^Lines: [0-9]+" gmane.linux.kernel | cut -d' ' -f2 | sort -nr | head -n1
+
+Challenge
+egrep -n "Archived-At" gmane.linux.kernel | head -n-1 | cut -d":" -f1 > starts
+        
+        (-n linenumber)(-n #NUMLINES)
+
+
+        paste starts ends | awk -F" " 'BEGIN{}{print $2-$1}END{}' | sort -n | tail -n1
+
+cat gmane.linux.kernel | awk '/Archived-At/{count = 0;next}/From MAILER-DAEMON/{print count-2; next} {count++}' | sort -n | tail -1
+
+#!/usr/bin/awk -f
+BEGIN{
+        x=0;
+        state=0;
+        max=0;
+} 
+{
+        if($1=="Archived-At:")
+        {
+                state=1;
+        } 
+        else if($2=="MAILER-DAEMON") 
+        {
+                state=0;
+                
+        } 
+        if(state==1)
+        {
+                x=x+1;
+        } 
+        else{
+        x=x-3;
+        if(max<x)
+                max=x;        
+        x=0;
+        }
+
+                  
+}
+END{print max;}
+
+2. most direct replies:
+        grep -a "^In-Reply-To:" gmane.linux.kernel | cut -d" " -f2 | sort | uniq -c | sort -n -r | head -n1
+(-a process binary file as text)(uniq -c prefix lines by number of occurences)
+
+
+cat nation.tbl | sort -t '|' -k 3 > sorted_nation.tbl
+join -1 1 -2 3 -t '|' region.tbl sorted_nation.tbl | grep 'EUROPE' | awk -F '|' 'BEGIN{}{print $6}END{}'
+
+
+exercise 3:
+    
+    1. According to the data set, which nations are in Europe? 
+
+join -t \| -1 3 -2 1 <(sort -t \| -k3 nation.tbl) <(grep EUROPE region.tbl) | cut -d \| -f3
+
+the purpose of this question is twofold: first, point out that join needs sorted input; second, show that it is beneficial to first do selection in region, then join 
+the alternative would be: 
+join -t \| -1 3 -2 1 <(sort -t \| -k3 nation.tbl) region.tbl | grep EUROPE | cut -d \| -f3
+
+but in that case much more data would be put out from join and be processed by grep 
+
+
+2. How many lines are in lineitem.tbl? 
+
+wc -l lineitem.tbl 
+
+3. Determine for each part how often it has been bought. (Hint: Sum up the quantities in lineitem.tbl, grouped by partkey) 
+
+sort -n -t \| -k2 lineitem.tbl | awk -F\| 'START {partkey=0; sum_quantity=0}{if(partkey!=$2){print partkey, sum_quantity; partkey=$2; sum_quantity=0}; sum_quantity=sum_quantity+$5} END{print partkey, sum_quantity}'
+
+
+(how many parts? cut -d\| -f2 lineitem.tbl | sort -n -r | head)
+
+ cat lineitem.tbl |awk -F '|' 'BEGIN{}{a[$2]+=$5;}END{for(i in a){print i,",",a[i]} }' 
+
+
+ cut lineitem.tbl -d '|' -f 2 |  sort -n | uniq -c 
+
+
+Exercise 4
+select sum ( l_extendedprice ) from lineitem
+awk -F'|' 'START{sum=0}{sum=sum+$5}END{print sum}' lineitem.tbl 
+
+Once the implementation is done, do simple performance measurements: 
+• Compare this to awk execution time. 
+time ./main lineitem.tbl
+
+• Estimate how fast the program can possibly be on your local machine. 
+Assume that the input file is read from memory. 
+Bottleneck Memory: 20GB/s 700 MB -> 700/20000=0.035s
+
+For Problems with perf:
+https://stackoverflow.com/questions/33057653/perf-enable-demangling-of-callgraph/34061874#34061874
+

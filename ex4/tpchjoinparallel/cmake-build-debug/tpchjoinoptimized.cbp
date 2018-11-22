@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tpchjoinoptimized"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\vendor\;CMake Files\cmake-build-debug\vendor\gtm\;CMake Files\cmake-build-debug\vendor\gtm\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_src">
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_src"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum">
+				<Option output="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/libsum.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/include"/>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum/fast">
+				<Option output="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/libsum.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/include"/>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_src">
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 gmock_src"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_all">
+				<Option output="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/test_all" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/include"/>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/vendor/gtm/gtest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_all/fast">
+				<Option output="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/test_all" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/include"/>
+					<Add directory="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/vendor/gtm/gtest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_all/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="googletest">
+				<Option working_dir="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 googletest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/src/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/src/sum.cpp">
+			<Option target="sum"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/test/test_sum.cpp">
+			<Option target="test_all"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/lib/gtest.cmake">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/vendor/gtm/tmp/gmock_src-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vendor\gtm\tmp\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/vendor/gtm/tmp/googletest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vendor\gtm\tmp\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Documents/FDE/exercises/ex4/tpchjoinparallel/cmake-build-debug/vendor/gtm/tmp/gtest_src-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vendor\gtm\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

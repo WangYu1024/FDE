@@ -1,0 +1,3 @@
+select count(*) from customer where c_comment  like '%packages%'
+select avg(length(cast(l_orderkey as text))) from lineitem
+select c_name,s_name from customer,supplier

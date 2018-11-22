@@ -2,12 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="tpchjoinoptimized" targetName="test_all" />
-      <config projectName="tpchjoinoptimized" targetName="gmock_src" />
-      <config projectName="tpchjoinoptimized" targetName="googletest" />
-      <config projectName="tpchjoinoptimized" targetName="gtest_src" />
-      <config projectName="tpchjoinoptimized" targetName="main" />
-      <config projectName="tpchjoinoptimized" targetName="sum" />
+      <config projectName="ex4" targetName="ex4" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -16,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65efad3c-5c26-4bf4-98f3-9051b0e9e4f1" name="Default" comment="" />
+    <list default="true" id="bdb08522-1483-41d2-b455-65baa9e5c5ec" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,22 +22,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="sum.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sum.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sum.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -70,13 +55,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="tpchjoinoptimized" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tpchjoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tpchjoinoptimized" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tpchjoin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -86,7 +66,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -103,22 +82,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="test_all" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tpchjoinoptimized" TARGET_NAME="test_all" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tpchjoinoptimized" RUN_TARGET_NAME="test_all" TEST_MODE="SUITE_TEST" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="gmock_src" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tpchjoinoptimized" TARGET_NAME="gmock_src" CONFIG_NAME="Debug" />
-    <configuration name="googletest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tpchjoinoptimized" TARGET_NAME="googletest" CONFIG_NAME="Debug" />
-    <configuration name="gtest_src" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tpchjoinoptimized" TARGET_NAME="gtest_src" CONFIG_NAME="Debug" />
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tpchjoinoptimized" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tpchjoinoptimized" RUN_TARGET_NAME="main" />
-    <configuration name="sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tpchjoinoptimized" TARGET_NAME="sum" CONFIG_NAME="Debug" />
+  <component name="RunManager" selected="Application.ex4">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="ex4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.gmock_src" />
-      <item itemvalue="Application.googletest" />
-      <item itemvalue="Application.gtest_src" />
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.sum" />
-      <item itemvalue="Google Test.test_all" />
+      <item itemvalue="Application.ex4" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -126,32 +95,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="65efad3c-5c26-4bf4-98f3-9051b0e9e4f1" name="Default" comment="" />
-      <created>1542748924447</created>
+      <changelist id="bdb08522-1483-41d2-b455-65baa9e5c5ec" name="Default" comment="" />
+      <created>1542809332269</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542748924447</updated>
-      <workItem from="1542748925995" duration="844000" />
+      <updated>1542809332269</updated>
+      <workItem from="1542809335544" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="844000" />
+    <option name="totallyTimeSpent" value="297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="CMake" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -168,10 +136,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sum.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
